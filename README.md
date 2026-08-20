@@ -47,20 +47,11 @@ HCLTech-Hackathon/
 - **Groq API Key** (`llama-3.3-70b-versatile`)
 
 ### 2. Environment Configuration
-Copy the template configuration to create your local `.env`:
+Create your local `.env` from the provided template:
 ```bash
 cp .env.example .env
 ```
-
-Configure your environment variables in `.env`:
-```env
-MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/pathwise
-JWT_SECRET=your-secure-jwt-secret
-GROQ_API_KEY=gsk_your_groq_api_key
-GROQ_MODEL=llama-3.3-70b-versatile
-PORT=3001
-CLIENT_URL=http://localhost:5173
-```
+*(Populate `.env` with your MongoDB URI, JWT secret, and Groq API key as indicated in `.env.example`)*
 
 ### 3. Installation & Database Seeding
 Run from the root directory:
